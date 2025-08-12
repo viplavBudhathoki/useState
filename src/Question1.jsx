@@ -2,6 +2,8 @@
 // Counter App:
 // Create a counter component using useState with buttons to increment, decrement, and reset the count.
 
+import react, {useState} from 'react';
+
 function Counter(){
 
     const [count, setCount] = useState(0);
@@ -12,7 +14,7 @@ function Counter(){
             <p>Number: {count}</p>
             <button onClick={()=>setCount(count + 1)}>Increment</button>
             <button onClick={()=>setCount(count - 1)}>Decrement</button>
-            <button onClick={()=>setCount(count)}>Reset</button>
+            <button onClick={()=>setCount(0)}>Reset</button>
         </div>
     );
 }
