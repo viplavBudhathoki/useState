@@ -11,6 +11,7 @@ function Counter(){
 
     return(
         <div>
+            <h2>Question 1</h2>
             <p>Number: {count}</p>
             <button onClick={()=>setCount(count + 1)}>Increment</button>
             <button onClick={()=>setCount(count - 1)}>Decrement</button>
@@ -20,9 +21,6 @@ function Counter(){
 }
 
 export default Counter
-
-// Toggle Visibility:
-// Build a component with a button that toggles the visibility of a text paragraph using useState.
 
 // Input Form:
 // Create a controlled input form that updates and displays the input value live using useState.
