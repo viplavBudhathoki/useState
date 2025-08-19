@@ -22,8 +22,7 @@ function Counter(){
 
 export default Counter
 
-// Input Form:
-// Create a controlled input form that updates and displays the input value live using useState.
+
 
 // Fetch Data on Mount:
 // Build a component that fetches user data from an API (like https://jsonplaceholder.typicode.com/users) once when the component mounts, using useEffect, and displays the list.
